@@ -99,7 +99,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:7px solid #2c2b296b;
 }
 
 header .user .name{
@@ -153,6 +153,8 @@ header .navbar ul li a:hover{
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
+    background: rgb(26,28,28);
+    background: linear-gradient(0deg, rgba(26,28,28,1) 0%, rgb(118 95 18) 100%);
 }
 
 .home h3{
